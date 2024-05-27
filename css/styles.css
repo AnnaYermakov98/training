@@ -1,0 +1,154 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    background-color: #191919;
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  
+  .section {
+    max-width: 100%;
+  }
+
+  /* =============== HEADER ========================= */
+
+.header {
+height: 119px;
+}
+
+.header-container {
+    margin: 26px 50px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+  .logo-icon {
+    fill: #FFFFFF;
+  }
+
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+    padding: 20px;
+  }
+
+  .header-item {
+font-weight: 400;
+font-size: 17px;
+line-height: 159%;
+color: #fff;
+  }
+
+  .header-item:hover,
+  .header-item:focus {
+color: #118DA8;
+  }
+
+  /* =============== HERO ==================== */
+  .hero {
+      display: flex;
+      padding: 40px 50px;
+    } 
+    .hero-icon {
+    
+    }
+
+  .hero-img {
+    border-radius: 12px;
+    width: 650px;
+    height: 873px;
+  }
+
+  .hero-content {
+    /* width: 530px;
+height: 610px; */
+display: flex;
+flex-direction: column;
+margin: 0 60px;
+justify-content: center;
+  }
+
+  .hero-title {
+font-weight: 400;
+font-size: 70px;
+line-height: 126%;
+letter-spacing: 0.05em;
+color: #fff;
+text-align: left;
+padding-bottom: 90px;
+  }
+
+  .accent {
+font-size: 75px;
+line-height: 117%;
+letter-spacing: 0.04em;
+  }
+
+  .accent-strong {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+  }
+
+  .hero-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #fff;
+    padding-bottom: 16px;
+  }
+
+  .hero-list {
+display: flex;
+gap: 17px;
+  }
+
+  .hero-item {
+
+  }
+
+  .icon-link {
+
+  }
+  
+  .icon-icon {
+fill: #1ED760;
+  }

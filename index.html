@@ -1,14 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.com/libraries/modern-normalize">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.com/libraries/modern-normalize"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body>
-    <h3>hello</h3>
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header section">
+      <div class="header-container">
+        <svg class="logo-icon" width="160" height="33">
+          <use href="./images/images.svg#icon-logo-header"></use>
+        </svg>
+        <ul class="nav-link">
+          <li><a class="link header-item" href="#">Home</a></li>
+          <li><a class="link header-item" href="#">Episodes</a></li>
+          <li><a class="link header-item" href="#">About</a></li>
+          <li><a class="link header-item" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+     <section class="section">
+          <div class="hero container">
+            
+            <div class="hero-icon">
+              <img
+                class="hero-img"
+                srcset="./images/hero@1x-min.jpg 1x, ./images/hero@2x-min.jpg 2x"
+                src="./images/hero@1x-min.jpg"
+                alt="man in studio"
+                width="650"
+                height="873"/>
+            </div>
+            <div class="hero-content">
+                <div>
+                  <h1 class="hero-title">
+                    Take your podcast to the<span class="accent"> next</span
+                    ><span class="accent-strong"> level</span>
+                  </h1>
+                </div>
+                <div>
+                  <p class="hero-text">Listen on</p>
+                  <ul class="hero-list">
+                    <li class="hero-item">
+                      <a href="#" class="icon-link">
+                        <svg class="icon-icon" width="32" height="32">
+                          <use href="./images/images.svg#icon-spotify"></use></svg></a>
+                    </li>
+                    <li class="hero-item">
+                      <a href="#" class="icon-link">
+                        <svg class="icon-icon" width="32" height="32">
+                          <use href="./images/images.svg#icon-Group"></use></svg></a>
+                    </li>
+                    <li class="hero-item">
+                      <a href="#" class="icon-link">
+                        <svg class="icon-icon" width="32" height="32">
+                          <use href="./images/images.svg#icon-cloud"></use></svg></a>
+                    </li>
+                    <li class="hero-item">
+                      <a href="#" class="icon-link">
+                        <svg class="icon-icon" width="32" height="32">
+                          <use href="./images/images.svg#icon-itunes"></use></svg></a>
+                    </li>
+                    <li class="hero-item">
+                      <a href="#" class="icon-link">
+                        <svg class="icon-icon" width="32" height="32">
+                          <use href="./images/images.svg#icon-radio"></use></svg></a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+     </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
