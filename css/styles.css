@@ -152,3 +152,88 @@ gap: 17px;
   .icon-icon {
 fill: #1ED760;
   }
+
+
+
+
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sectione-photo {
+  width: 389px;
+  height: 432px;
+  padding: 40px 53px 40px 40px;
+}
+
+.section-title {
+font-weight: 400;
+font-size: 64px;
+line-height: 124%;
+letter-spacing: 0.05em;
+color: #fff;
+margin-bottom: 40px;
+}
+
+.section-btn {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+font-size: 17px;
+line-height: 159%;
+color: #fff;
+background-color: #118DA8;
+border: none;
+border-radius: 6px;
+width: 178px;
+height: 51px;
+}
+.section-block-list {
+}
+
+.section-item {
+  border-radius: 32px;
+  width: 1300px;
+  height: 545px;
+  background: #000;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.block-title {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 110%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding-bottom: 28px;
+
+}
+
+.block-text {
+font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.7);
+padding-bottom: 18px;
+}
+
+.block-btn {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  border-radius: 6px;
+  width: 208px;
+  height: 51px;
+  background: #118da8;
+  border: none;
+}
+.block-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+  justify-content: center;
+}
